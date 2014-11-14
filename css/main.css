@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	max-width: 100%;
+}
+
+.sidebar {
+background-color: #666;
+position: fixed;
+min-width: 200px;
+top: 0;
+bottom: 0;
+left: 0;
+display: block;
+padding: 20px;
+overflow-x: hidden;
+overflow-y: auto;
+border-right: 1px solid #666;
+}
+
+#container_main {
+	margin-left: 220px;
+	
+}
+
+header, footer {
+	padding-left: 40px;
+	text-align: center;
+}
+
+#container_a, #container_b, footer {
+	
+	background-color: #999;
+	margin-top: 50px;
+	padding: 10px;
+}
+
